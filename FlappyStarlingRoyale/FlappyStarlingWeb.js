@@ -61,11 +61,11 @@ FlappyStarlingWeb.prototype.FlappyStarlingWeb_loadAssets = function(onComplete) 
     var /** @type {starling.textures.Texture} */ bradybunchTexture = starling.textures.Texture.fromBitmapData(openfl.utils.Assets.getBitmapData("assets/fonts/1x/bradybunch.png"), false);
     var /** @type {string} */ bradybunchXml = openfl.utils.Assets.getText("assets/fonts/1x/bradybunch.fnt");
     var /** @type {starling.text.BitmapFont} */ bitmapFont = new starling.text.BitmapFont(bradybunchTexture, bradybunchXml);
-    starling.text.TextField.registerCompositor(bitmapFont, bitmapFont.name);
+    starling.text.TextField.registerCompositor(bitmapFont, "bradybunch");
     assets.addAsset("atlas", atlasTexture);
     assets.addAsset("atlas", new starling.textures.TextureAtlas(atlasTexture, atlasXml));
-    assets.addAsset("flap", openfl.utils.Assets.getSound("assets/sounds/pass.mp3"));
-    assets.addAsset("pass", openfl.utils.Assets.getSound("assets/sounds/flap.mp3"));
+    assets.addAsset("pass", openfl.utils.Assets.getSound("assets/sounds/pass.mp3"));
+    assets.addAsset("flap", openfl.utils.Assets.getSound("assets/sounds/flap.mp3"));
     assets.addAsset("crash", openfl.utils.Assets.getSound("assets/sounds/crash.mp3"));
     onComplete(assets);
   });

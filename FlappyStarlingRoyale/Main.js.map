@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Main.js",
+"lineCount":28,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;;;;AASkB,IAAhB,WAAqB,CAAC,C,CAAE,C;EAEvB,IAAS,oCAAL,KAAW,GAAG,IAAI,oBAAM,CAAC,GAAG,EAAE,GAAG,EAAE,QAAQ,EAAE,iBAAiB,CAAC,C;EACnE,QAAQ,CAAC,IAAI,CAAC,WAAY,C,wDAAC,KAAK,CAAC,O,aAAO,CAAC,CAAA;",
+"sources":["../../src/Main.as"],
+"names":[]
+}

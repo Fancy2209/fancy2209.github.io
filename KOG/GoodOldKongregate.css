@@ -172,7 +172,7 @@ table.static_table {
     font-weight: normal;
     src: url(https://cdn2.kongcdn.com/compiled-assets/kongico/kongico-48e71faa72bdebb3c012fa1e2943fdd10e1dc286d9c445c21bfecad761f74d3e.eot);
     src: url(https://cdn2.kongcdn.com/compiled-assets/kongico/kongico-48e71faa72bdebb3c012fa1e2943fdd10e1dc286d9c445c21bfecad761f74d3e.eot?#iefix) format("embedded-opentype"),
-        url(https://cdn1.kongcdn.com/compiled-assets/kongico/kongico-71e6aff273f2a9774ff82c9c33c85e09cd2ea61400f58920503d4ec58d729a2a.woff) format("woff"),
+        url(https://web.archive.org/web/20220401042240if_/https://cdn1.kongcdn.com/compiled-assets/kongico/kongico-71e6aff273f2a9774ff82c9c33c85e09cd2ea61400f58920503d4ec58d729a2a.woff) format("woff"),
         url(https://cdn2.kongcdn.com/compiled-assets/kongico/kongico-091fee5cde1436e2b34f6e268515e0a1ff349358693d75323a1daa0da4b902bf.ttf) format("truetype");
 }
 .kong_ico {

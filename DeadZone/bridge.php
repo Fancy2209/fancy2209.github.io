@@ -3,19 +3,19 @@
 // Set the content type to JSON
 header('Content-Type: application/json');
 
-// Define the response data
-$response = array(
-    "success" => true,
-    "services" => array(
-        array(
-            "service" => "armor",
-            "mode" => 1,
-            "message" => "",
-            "onlineETA" => "",
-            "htmlMessage" => ""
-        )
-    )
-);
+// Define the response data as a JSON string with formatting
+$response = '{
+    "success": true,
+    "services": [
+        {
+            "service": "fb",
+            "mode": 1,
+            "message": "",
+            "onlineETA": "",
+            "htmlMessage": ""
+        }
+    ]
+}';
 
-// Encode the response data as JSON and print it
-echo json_encode($response);
+// Print the JSON response
+echo $response;

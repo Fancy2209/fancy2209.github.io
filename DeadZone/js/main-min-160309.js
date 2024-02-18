@@ -152,7 +152,7 @@ function startGame() {
 
 	$("#game_wrapper").height("0px");
 
-	var swfURL = "https://r.playerio.com/r/dev-the-last-stand-iret8ormbeshajyk6woewg/game/preloader.swf";
+	var swfURL = "https://r.playerio.com/r/the-last-stand-revive-iwk1zl1buuqsa7tnibikpg/game/preloader.swf";
 	swfobject.embedSWF(swfURL, "game_container", "100%", "100%", flashVersion, "swf/expressinstall.swf", flashVars, params, attributes, function(e)	{
 		if (!e.success)
 		{
@@ -200,7 +200,7 @@ function startMigration() {
 
 	$("#game_wrapper").height("0px");
 
-	var swfURL = "https://r.playerio.com/r/dev-the-last-stand-iret8ormbeshajyk6woewg/migration/preloader.swf";
+	var swfURL = "https://r.playerio.com/r/the-last-stand-revive-iwk1zl1buuqsa7tnibikpg/migration/preloader.swf";
 	swfobject.embedSWF(swfURL, "game_container", "100%", "100%", flashVersion, "swf/expressinstall.swf", flashVars, params, attributes, function(e)	{
 		if (!e.success)
 		{

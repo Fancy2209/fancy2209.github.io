@@ -1,0 +1,126 @@
+<!DOCTYPE html><html class="default" lang="en"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>@awayjs/renderer - v0.11.65 | AwayJS Docs</title><meta name="description" content="Documentation for AwayJS Docs"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/icons.js" id="tsd-icons-script"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar"><div class="tsd-toolbar-contents container"><div class="table-cell" id="tsd-search" data-base=".."><div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="../assets/icons.svg#icon-search"></use></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div><div class="field"><div id="tsd-toolbar-links"></div></div><ul class="results"><li class="state loading">Preparing search index...</li><li class="state failure">The search index is not available</li></ul><a href="../index.html" class="title">AwayJS Docs</a></div><div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="../assets/icons.svg#icon-menu"></use></svg></a></div></div></header><div class="container container-main"><div class="col-content"><div class="tsd-page-title"><ul class="tsd-breadcrumb"><li><a href="../index.html">AwayJS Docs</a></li><li><a href="_awayjs_renderer.html">@awayjs/renderer</a></li></ul><h1>Module @awayjs/renderer - v0.11.65</h1></div><section class="tsd-panel tsd-typography"><a id="md:awayjs-renderer" class="tsd-anchor"></a><h1 class="tsd-anchor-link">AwayJS Renderer<a href="#md:awayjs-renderer" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h1><p><a href="https://travis-ci.org/awayjs/renderer"><img src="https://travis-ci.org/awayjs/renderer.svg?branch=dev" alt="Build Status"></a></p>
+<p>Interface for scene and material modules, providing simpified rendering for complex heriarchies.</p>
+<a id="md:documentation" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Documentation<a href="#md:documentation" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h2><p><a href="https://awayjs.github.io/docs/renderer">Official AwayJS Documentation</a></p>
+<a id="md:awayjs-dependencies" class="tsd-anchor"></a><h2 class="tsd-anchor-link">AwayJS Dependencies<a href="#md:awayjs-dependencies" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h2><ul>
+<li>core</li>
+<li>graphics</li>
+<li>scene</li>
+<li>stage</li>
+</ul>
+<a id="md:internal-structure" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Internal Structure<a href="#md:internal-structure" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h2><ul>
+<li>
+<p>animators&lt;br&gt;
+Data and renderer classes for shape animation functionality. (Data classes to be split into animation module)</p>
+</li>
+<li>
+<p>elements&lt;br&gt;
+Abstractions for elements classes (to be moved to stage module)</p>
+</li>
+<li>
+<p>errors&lt;br&gt;
+Error types</p>
+</li>
+<li>
+<p>events&lt;br&gt;
+Event objects for renderer classes</p>
+</li>
+<li>
+<p>filters&lt;br&gt;
+Data and renderer classes for global filter effects (Data classes to be split into scene module)</p>
+</li>
+<li>
+<p>managers&lt;br&gt;
+Render to Texture helper class (deprecated)</p>
+</li>
+<li>
+<p>materials&lt;br&gt;
+Abstractions for material classes</p>
+</li>
+<li>
+<p>renderables&lt;br&gt;
+Abstractions for renderable classes eg Billboard, LineSegment, Skybox (Shape to be moved to stage module)</p>
+</li>
+<li>
+<p>shaders&lt;br&gt;
+Data object for representing state and functionality of a shader (base classes to be moved to stage)</p>
+</li>
+<li>
+<p>sort&lt;br&gt;
+Merge sort classes acting on linked lists of renderables</p>
+</li>
+<li>
+<p>textures&lt;br&gt;
+Abstractions for texture classes (to be moved to stage module)</p>
+</li>
+<li>
+<p>utils&lt;br&gt;
+Helpers for particle animations</p>
+</li>
+</ul>
+</section><section class="tsd-panel-group tsd-index-group"><section class="tsd-panel tsd-index-panel"><h3 class="tsd-index-heading uppercase">Index</h3><section class="tsd-index-section"><h3 class="tsd-index-heading">Enumerations</h3><div class="tsd-index-list"><a href="../enums/_awayjs_renderer.LineScaleMode.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-8"></use></svg><span>Line<wbr/>Scale<wbr/>Mode</span></a>
+<a href="../enums/_awayjs_renderer.MappingMode.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-8"></use></svg><span>Mapping<wbr/>Mode</span></a>
+</div></section><section class="tsd-index-section"><h3 class="tsd-index-heading">Classes</h3><div class="tsd-index-list"><a href="../classes/_awayjs_renderer.AnimationNodeBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Animation<wbr/>Node<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer.AnimationRegisterData.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Animation<wbr/>Register<wbr/>Data</span></a>
+<a href="../classes/_awayjs_renderer.CacheRenderer.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Cache<wbr/>Renderer</span></a>
+<a href="../classes/_awayjs_renderer.ChunkVO.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>ChunkVO</span></a>
+<a href="../classes/_awayjs_renderer.DefaultRenderer.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Default<wbr/>Renderer</span></a>
+<a href="../classes/_awayjs_renderer.DepthRenderer.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Depth<wbr/>Renderer</span></a>
+<a href="../classes/_awayjs_renderer.DistanceRenderer.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Distance<wbr/>Renderer</span></a>
+<a href="../classes/_awayjs_renderer.ElementsBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Elements<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer.ElementsEvent.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Elements<wbr/>Event</span></a>
+<a href="../classes/_awayjs_renderer.ElementsType.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Elements<wbr/>Type</span></a>
+<a href="../classes/_awayjs_renderer.ElementsUtils.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Elements<wbr/>Utils</span></a>
+<a href="../classes/_awayjs_renderer.HitTestCache.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Hit<wbr/>Test<wbr/>Cache</span></a>
+<a href="../classes/_awayjs_renderer.ImageTexture2D.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Image<wbr/>Texture2D</span></a>
+<a href="../classes/_awayjs_renderer.ImageTextureCube.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Image<wbr/>Texture<wbr/>Cube</span></a>
+<a href="../classes/_awayjs_renderer.LineElements.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Line<wbr/>Elements</span></a>
+<a href="../classes/_awayjs_renderer.LineElementsUtils.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Line<wbr/>Elements<wbr/>Utils</span></a>
+<a href="../classes/_awayjs_renderer.MaterialEvent.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Material<wbr/>Event</span></a>
+<a href="../classes/_awayjs_renderer.MaterialUtils.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Material<wbr/>Utils</span></a>
+<a href="../classes/_awayjs_renderer.PassEvent.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Pass<wbr/>Event</span></a>
+<a href="../classes/_awayjs_renderer.RenderEntity.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Render<wbr/>Entity</span></a>
+<a href="../classes/_awayjs_renderer.RenderGroup.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Render<wbr/>Group</span></a>
+<a href="../classes/_awayjs_renderer.RenderableEvent.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Renderable<wbr/>Event</span></a>
+<a href="../classes/_awayjs_renderer.RenderableMergeSort.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Renderable<wbr/>Merge<wbr/>Sort</span></a>
+<a href="../classes/_awayjs_renderer.RenderableNullSort.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Renderable<wbr/>Null<wbr/>Sort</span></a>
+<a href="../classes/_awayjs_renderer.RendererBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Renderer<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer.ShaderBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Shader<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer.Style.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Style</span></a>
+<a href="../classes/_awayjs_renderer.StyleEvent.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Style<wbr/>Event</span></a>
+<a href="../classes/_awayjs_renderer.Texture2D.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Texture2D</span></a>
+<a href="../classes/_awayjs_renderer.TextureBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Texture<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer.TextureCube.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Texture<wbr/>Cube</span></a>
+<a href="../classes/_awayjs_renderer.TriangleElements.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Triangle<wbr/>Elements</span></a>
+<a href="../classes/_awayjs_renderer.TriangleElementsUtils.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>Triangle<wbr/>Elements<wbr/>Utils</span></a>
+<a href="../classes/_awayjs_renderer._Render_ElementsBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Render_<wbr/>Elements<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer._Render_LineElements.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Render_<wbr/>Line<wbr/>Elements</span></a>
+<a href="../classes/_awayjs_renderer._Render_MaterialBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Render_<wbr/>Material<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer._Render_MaterialPassBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Render_<wbr/>Material<wbr/>Pass<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer._Render_RenderableBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Render_<wbr/>Renderable<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer._Render_TriangleElements.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Render_<wbr/>Triangle<wbr/>Elements</span></a>
+<a href="../classes/_awayjs_renderer._Shader_ImageTexture.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Shader_<wbr/>Image<wbr/>Texture</span></a>
+<a href="../classes/_awayjs_renderer._Shader_ImageTexture2D.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Shader_<wbr/>Image<wbr/>Texture2D</span></a>
+<a href="../classes/_awayjs_renderer._Shader_TextureBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Shader_<wbr/>Texture<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer._Stage_ElementsBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Stage_<wbr/>Elements<wbr/>Base</span></a>
+<a href="../classes/_awayjs_renderer._Stage_LineElements.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Stage_<wbr/>Line<wbr/>Elements</span></a>
+<a href="../classes/_awayjs_renderer._Stage_TriangleElements.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-128"></use></svg><span>_<wbr/>Stage_<wbr/>Triangle<wbr/>Elements</span></a>
+</div></section><section class="tsd-index-section"><h3 class="tsd-index-heading">Interfaces</h3><div class="tsd-index-list"><a href="../interfaces/_awayjs_renderer.IAnimationSet.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IAnimation<wbr/>Set</span></a>
+<a href="../interfaces/_awayjs_renderer.IAnimator.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IAnimator</span></a>
+<a href="../interfaces/_awayjs_renderer.IElements.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IElements</span></a>
+<a href="../interfaces/_awayjs_renderer.IMapper.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IMapper</span></a>
+<a href="../interfaces/_awayjs_renderer.IMaterial.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IMaterial</span></a>
+<a href="../interfaces/_awayjs_renderer.IMaterialClass.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IMaterial<wbr/>Class</span></a>
+<a href="../interfaces/_awayjs_renderer.IMaterialFactory.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IMaterial<wbr/>Factory</span></a>
+<a href="../interfaces/_awayjs_renderer.IPass.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IPass</span></a>
+<a href="../interfaces/_awayjs_renderer.IRenderContainer.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IRender<wbr/>Container</span></a>
+<a href="../interfaces/_awayjs_renderer.IRenderEntitySorter.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IRender<wbr/>Entity<wbr/>Sorter</span></a>
+<a href="../interfaces/_awayjs_renderer.IRendererClass.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IRenderer<wbr/>Class</span></a>
+<a href="../interfaces/_awayjs_renderer.IRendererSettings.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IRenderer<wbr/>Settings</span></a>
+<a href="../interfaces/_awayjs_renderer.IShaderBase.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>IShader<wbr/>Base</span></a>
+<a href="../interfaces/_awayjs_renderer.ISimplePass.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>ISimple<wbr/>Pass</span></a>
+<a href="../interfaces/_awayjs_renderer.ITexture.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>ITexture</span></a>
+<a href="../interfaces/_awayjs_renderer._IRender_ElementsClass.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>_IRender_<wbr/>Elements<wbr/>Class</span></a>
+<a href="../interfaces/_awayjs_renderer._IRender_MaterialClass.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>_IRender_<wbr/>Material<wbr/>Class</span></a>
+<a href="../interfaces/_awayjs_renderer._IRender_RenderableClass.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-256"></use></svg><span>_IRender_<wbr/>Renderable<wbr/>Class</span></a>
+</div></section><section class="tsd-index-section"><h3 class="tsd-index-heading">Variables</h3><div class="tsd-index-list"><a href="../variables/_awayjs_renderer.Settings.html" class="tsd-index-link tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-32"></use></svg><span>Settings</span></a>
+</div></section></section></section></div><div class="col-sidebar"><div class="page-menu"><div class="tsd-navigation settings"><details class="tsd-index-accordion"><summary class="tsd-accordion-summary"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>Settings</h3></summary><div class="tsd-accordion-details"><div class="tsd-filter-visibility"><span class="settings-label">Member Visibility</span><ul id="tsd-filter-options"><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-external" name="external"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>External</span></label></li></ul></div><div class="tsd-theme-toggle"><label class="settings-label" for="tsd-theme">Theme</label><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div><details open class="tsd-index-accordion tsd-page-navigation"><summary class="tsd-accordion-summary"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>On This Page</h3></summary><div class="tsd-accordion-details"><a href="#md:awayjs-renderer"><span>AwayJS <wbr/>Renderer</span></a><ul><li><a href="#md:documentation"><span>Documentation</span></a></li><li><a href="#md:awayjs-dependencies"><span>AwayJS <wbr/>Dependencies</span></a></li><li><a href="#md:internal-structure"><span>Internal <wbr/>Structure</span></a></li></ul></div></details></div><div class="site-menu"><nav class="tsd-navigation"><a href="../index.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="../assets/icons.svg#icon-1"></use></svg><span>AwayJS Docs</span></a><ul class="tsd-small-nested-navigation" id="tsd-nav-container" data-base=".."><li>Loading...</li></ul></nav></div></div></div><footer><p class="tsd-generator">Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></footer><div class="overlay"></div></body></html>
